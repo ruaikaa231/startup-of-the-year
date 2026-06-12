@@ -1,0 +1,56 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: "DM Serif Display", Georgia;
+	background: url(laptop_image.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: white;
+}
+
+.container {
+	display: flex;
+	place-items: center;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    /*the max width of the line*/
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer {
+	height: 15rem;
+}
+
+.btn {
+	font-weight: bold;
+	/*curves the button edges*/
+	border-radius: 360px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #FB8974;
+	border-color: #FB8974;
+}
+
+.btn-primary:hover {
+	background-color: #D95F49;
+	border-color: #D95F49;
+}
+
+
+/*makes buttom larger*/
+.btn-xl {
+	padding: 1rem 2rem;
+}
